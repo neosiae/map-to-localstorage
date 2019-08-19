@@ -1,0 +1,16 @@
+{
+  "name": "map-to-localstorage",
+  "version": "1.0.0",
+  "description": "Map object to localStorage",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.spec.js"
+  },
+  "repository": "git@github.com:neosiae/map-to-localstorage.git",
+  "author": "Denis Kotlica <neosiae@protonmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "localstorage-polyfill": "^1.0.1",
+    "tape": "^4.11.0"
+  }
+}
