@@ -6,6 +6,14 @@
   "scripts": {
     "test": "node index.spec.js"
   },
+  "keywords": [
+    "maptolocalstorage",
+    "map",
+    "to",
+    "localstorage",
+    "functional",
+    "programming"
+  ],
   "repository": "git@github.com:neosiae/map-to-localstorage.git",
   "author": "Denis Kotlica <neosiae@protonmail.com>",
   "license": "MIT",
