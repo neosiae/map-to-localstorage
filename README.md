@@ -1,6 +1,6 @@
 # map-to-localstorage
 
-[![Build Status](https://travis-ci.org/neosiae/map-to-localstorage.svg?branch=master)](https://travis-ci.org/neosiae/map-to-localstorage)
+![npm](https://img.shields.io/npm/v/map-to-localstorage?style=flat-square) ![Travis (.org)](https://img.shields.io/travis/neosiae/map-to-localstorage?style=flat-square) ![npm](https://img.shields.io/npm/dw/map-to-localstorage?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/map-to-localstorage?style=flat-square)
 
 Map object to localStorage
 
@@ -11,15 +11,15 @@ Map object to localStorage
 ## Usage
 
 ```javascript
-const mapTolocalStorage = require("map-to-localstorage");
+const mapTolocalStorage = require('map-to-localstorage')
 
 const o = {
-  name: "John",
-  surname: "Doe",
-  email: "johndoe@example.com"
-};
+  name: 'John',
+  surname: 'Doe',
+  email: 'johndoe@example.com',
+}
 
-mapTolocalStorage(o);
+mapTolocalStorage(o)
 ```
 
 ## License
