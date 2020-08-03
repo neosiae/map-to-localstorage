@@ -4,7 +4,7 @@ require('localstorage-polyfill')
 const mapTolocalStorage = require('./index')
 const test = require('tape')
 
-test('Maps object to localstorage', t => {
+test('Maps an object to the localStorage', t => {
   const o = {
     name: 'John',
     surname: 'Doe',
