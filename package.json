@@ -1,6 +1,6 @@
 {
   "name": "map-to-localstorage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Map object to localStorage",
   "main": "index.js",
   "scripts": {
