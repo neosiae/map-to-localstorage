@@ -20,5 +20,8 @@
   "devDependencies": {
     "localstorage-polyfill": "^1.0.1",
     "tape": "^4.11.0"
+  },
+  "dependencies": {
+    "is-object": "^1.0.1"
   }
 }
