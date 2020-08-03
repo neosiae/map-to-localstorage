@@ -17,3 +17,13 @@ test("map object to localstorage", t => {
 
   t.end();
 });
+
+test("Throws an error when the argument is not an object", t => {
+  const o = 'not an object'
+
+  t.throws(() => {
+    mapTolocalStorage(o)
+  })
+
+  t.end()
+})
