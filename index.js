@@ -7,5 +7,5 @@ module.exports = function (o) {
     throw new TypeError(`Expected object but got ${typeof o}`)
   }
 
-  return Object.keys(o).map(i => localStorage.setItem(i, o[i]))
+  Object.keys(o).forEach(key => localStorage.setItem(key, o[key]))
 }
